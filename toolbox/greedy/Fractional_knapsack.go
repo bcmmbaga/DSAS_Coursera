@@ -1,5 +1,9 @@
 package greedy
 
+// A thief finds much more loot than his bag can fit. Help him to find the most valuable combination
+// of items assuming that any fraction of a loot item can be put into his bag.
+// The goal of this code problem is to implement an algorithm for the fractional knapsack problem
+
 type item struct {
 	value, weight, ratio float32
 }
