@@ -19,7 +19,7 @@ func binarySearchRecursive(arr []int, low, high, key int) int {
 
 func binarySearch(arr []int, key int) int {
 	low, high := 0, len(arr)-1
-	for high <= low {
+	for low <= high {
 		mid := low + (high-low)/2
 		if key == arr[mid] {
 			return mid
